@@ -115,8 +115,8 @@ Figma
 
 
 ## OUTPUT:
+<img width="1202" height="751" alt="image" src="https://github.com/user-attachments/assets/07b0811d-69f4-4d55-9373-a6caee4d0797" />
 
-<img width="1202" height="751" alt="image" src="https://github.com/user-attachments/assets/a959d37a-afc3-4e95-b7ad-f617b296d724" />
 
 ## RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.
