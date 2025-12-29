@@ -112,7 +112,7 @@ Figma
     </div>
   </body>
 </html>
-
+```
 
 ## OUTPUT:
 <img width="1202" height="751" alt="image" src="https://github.com/user-attachments/assets/07b0811d-69f4-4d55-9373-a6caee4d0797" />
