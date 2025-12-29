@@ -34,144 +34,89 @@ Figma
 
 ## CODE:
 ```
-html
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Event Registration</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<div class="container">
-
-    <header>
-        <h1>Tech Fest 2025</h1>
-        <p>Register Now to Participate</p>
-    </header>
-
-    <img src="event.jpg" alt="Event Image" class="event-img">
-
-    <form class="registration-form">
-        <h2>Event Registration Form</h2>
-
-        <label>Name:</label>
-        <input type="text" required>
-
-        <label>Email:</label>
-        <input type="email" required>
-
-        <label>Phone Number:</label>
-        <input type="tel" required>
-
-        <label>Event Category:</label>
-        <select required>
-            <option>Select</option>
-            <option>Workshop</option>
-            <option>Technical Quiz</option>
-            <option>Coding Contest</option>
-            <option>Paper Presentation</option>
-        </select>
-
-        <label>Gender:</label>
-        <div class="radio">
-            <input type="radio" name="gender"> Male
-            <input type="radio" name="gender"> Female
-        </div>
-
-        <button type="submit">Register</button>
-    </form>
-
-    <footer>
-        <p>© 2025 Tech Fest | All Rights Reserved</p>
-    </footer>
-
-</div>
-
-</body>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="iphone-pro">
+      <img class="rectangle" src="img/rectangle-1.png" />
+      <img class="image" src="img/image-1.png" />
+      <div class="div"></div>
+      <div class="text-wrapper">Event Registration</div>
+      <div class="rectangle-2"></div>
+      <div class="rectangle-3"></div>
+      <div class="text-wrapper-2">LOGIN</div>
+      <div class="text-wrapper-3">REGISTRATION</div>
+      <img class="DARSHINI" src="img/DARSHINI-25004961.png" />
+    </div>
+  </body>
 </html>
-```
-css
-body {
-    background-color: #e6f2ff;
-    font-family: Arial, sans-serif;
-}
-
-.container {
-    width: 800px;
-    margin: auto;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-header {
-    text-align: center;
-    background-color: #0047ab;
-    color: white;
-    padding: 15px;
-    border-radius: 8px;
-}
-
-.event-img {
-    width: 100%;
-    height: 250px;
-    margin: 20px 0;
-    border-radius: 10px;
-}
-
-.registration-form {
-    background-color: #f2f2f2;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.registration-form h2 {
-    text-align: center;
-    color: #0047ab;
-}
-
-label {
-    display: block;
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-input, select {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-}
-
-.radio {
-    margin-top: 5px;
-}
-
-button {
-    margin-top: 20px;
-    width: 100%;
-    padding: 10px;
-    background-color: #0047ab;
-    color: white;
-    border: none;
-    font-size: 16px;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #002f6c;
-}
-
-footer {
-    text-align: center;
-    margin-top: 20px;
-    color: gray;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="iphone-pro">
+      <img class="rectangle" src="img/rectangle-5.svg" />
+      <div class="div"></div>
+      <div class="text-wrapper">EVENT REGISTRATION</div>
+      <img class="arrow" src="img/arrow-1.svg" />
+      <img class="arrow" src="img/arrow-4.svg" />
+      <img class="img" src="img/arrow-2.svg" />
+      <img class="arrow-2" src="img/arrow-3.svg" />
+      <img class="arrow-3" src="img/arrow-5.svg" />
+      <img class="arrow-4" src="img/arrow-6.svg" />
+      <div class="text-wrapper-2">GAMES</div>
+      <div class="text-wrapper-3">CULTURAL</div>
+      <div class="text-wrapper-4">HACKATHON</div>
+      <div class="text-wrapper-5">WORKSHOPS</div>
+      <div class="text-wrapper-6">FOOD FEST</div>
+      <img class="image" src="img/image-2.png" />
+    </div>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="iphone-pro">
+      <div class="rectangle"></div>
+      <div class="text-wrapper">REGISTRATION FORM</div>
+      <div class="ellipse"></div>
+      <div class="div">NAME</div>
+      <div class="text-wrapper-2">REGISTER NO</div>
+      <div class="text-wrapper-3">DEPARTMENT</div>
+      <div class="text-wrapper-4">MOBILE NO</div>
+      <div class="text-wrapper-5">EMAIL ID</div>
+      <div class="text-wrapper-6">NO OF EVENTS</div>
+      <div class="text-wrapper-7">SUBMIT</div>
+      <div class="ellipse-2"></div>
+      <div class="ellipse-3"></div>
+      <div class="ellipse-4"></div>
+      <div class="ellipse-5"></div>
+      <div class="ellipse-6"></div>
+    </div>
+  </body>
+</html>
 
 
 ## OUTPUT:
 
-![alt text](image.png)
+<img width="1202" height="751" alt="image" src="https://github.com/user-attachments/assets/d4ce8986-65c4-4acf-b62a-8fcbd2efca06" />
+
 ## RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.
